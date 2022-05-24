@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -ms-box-sizing: border-box !important;
+}
+
+body {
+  font-family: 'Droid Sans', 'Droid Serif', sans-serif;
+  max-height: 100vh;
+  background-color: olive;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0;
+  padding: 1rem;
+}
+
+.score-page {
+  display: flex;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+}
+
+.title {
+  margin-left: 2rem;
+}
+
+.title h1 {
+  font-size: 2.9rem;
+  font-weight: 800;
+}
+
+.recent-scores {
+  display: flex;
+  margin: 1rem;
+}
+
+.recent-scores h2 {
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+
+.refresh-button {
+  margin-left: 2rem;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: 'Droid Sans', 'Droid Serif', sans-serif;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0 1rem;
+  cursor: pointer;
+  box-shadow: 5px 8px 5px rgba(0, 0, 0, 1);
+}
+
+.refresh-button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.score-table {
+  border: 2px solid black;
+  width: 90%;
+  margin-left: 1rem;
+  height: 300px;
+  overflow: auto;
+}
+
+.add-score {
+  flex: 1;
+  width: 300px;
+}
+
+.add-score h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-weight: bolder;
+}
+
+input::-webkit-input-placeholder {
+  color: gray;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.add-score input {
+  padding: 1rem;
+  width: 100%;
+  border: 2px solid black;
+  margin: 1rem 0;
+}
+
+.form .submit {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: 'Droid Sans', 'Droid Serif', sans-serif;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  box-shadow: 5px 7px 5px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+  width: 50%;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.form .submit:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.score-table li {
+  padding: 10px;
+  list-style: none;
+  color: #fff;
+}
+
+.score-table li:nth-child(odd) {
+  background-color: black;
+  color: olive;
+}
