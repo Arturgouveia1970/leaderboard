@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To do List
+# LEADERBOARD
 
-> An every day list of things to do
+> A board that lets you get and send information to and from an API.
 
 ## Built With
 
@@ -10,6 +10,7 @@
 - CSS
 - Javascript
 - Webpack
+- gitflow
 
 ## Live Demo
 
@@ -18,7 +19,7 @@
 ## Install
 
 Clone this repository into your machine:
-https://github.com/Arturgouveia1970/To-do-list-III.git
+https://github.com/Arturgouveia1970/leaderboard.git
 npm . init -y
 npm install
 
