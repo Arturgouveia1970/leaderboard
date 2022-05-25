@@ -1,4 +1,4 @@
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FRZdMMyF1kjqYVxv98wr/scores/'; 
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FRZdMMyF1kjqYVxv98wr/scores/';
 const scoreTable = document.querySelector('.score-table');
 
 const addScore = async (userscore) => {
