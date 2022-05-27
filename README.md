@@ -21,6 +21,7 @@
 Clone this repository into your machine:
 https://github.com/Arturgouveia1970/leaderboard.git
 npm . init -y
+npm start
 npm install
 
 ## Authors
