@@ -18,7 +18,7 @@ const getScore = async () => {
   const request = await fetch(url);
   const data = await request.json();
 
-  scoreTable.innerHTML = data.result
+  scoreTable.innerHTML = data.result.sort((a, b) => b.score - a.score)
     .map((score) => `<li>${score.user}: ${score.score}</li>`)
     .join('');
 };
