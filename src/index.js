@@ -14,4 +14,6 @@ form.addEventListener('submit', (e) => {
   addScore(userscore).then(() => {
     getScore();
   });
+  form.names.value = '';
+  form.marks.value = '';
 });
