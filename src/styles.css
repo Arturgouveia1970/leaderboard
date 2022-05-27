@@ -14,8 +14,12 @@ body {
   font-family: 'Droid Sans', 'Droid Serif', sans-serif;
   max-height: 100vh;
   background-color: rgb(15, 15, 3);
-  background-image: linear-gradient(to right, rgba(255,0,0,0),
-  rgba(255,0,0,1));
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0),
+      rgba(255, 0, 0, 1)
+    );
 }
 
 main {
@@ -99,7 +103,6 @@ input::-webkit-input-placeholder {
   margin: 1rem 0;
   box-shadow: 5px 7px 5px rgba(0, 0, 0, 1);
 }
-
 
 .form .submit {
   font-size: 1rem;
