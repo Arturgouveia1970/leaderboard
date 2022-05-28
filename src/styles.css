@@ -16,9 +16,10 @@ body {
   background-color: rgb(15, 15, 3);
   background-image:
     linear-gradient(
-      to right,
+      to bottom,
       rgba(255, 0, 0, 0),
-      rgba(255, 0, 0, 1)
+      rgba(255, 0, 0, 1),
+      rgb(107, 21, 21)
     );
 }
 
@@ -35,7 +36,7 @@ main {
 }
 
 .title {
-  margin-left: 2rem;
+  margin-left: 3rem;
   color: #eee;
 }
 
@@ -46,7 +47,7 @@ main {
 
 .recent-scores {
   display: flex;
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 .recent-scores h2 {
