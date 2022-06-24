@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[netlify]https://artur-leaderboard.netlify.app/()
+[netlify](https://artur-leaderboard.netlify.app/)
 
 ## Install
 
