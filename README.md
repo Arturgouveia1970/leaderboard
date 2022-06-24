@@ -28,9 +28,9 @@ npm install
 
 👤 **Artur Gouveia**
 
-- GitHub:GitHub: [@Arturgouveia1970](https://github.com/Arturgouveia1970)
-- Artur Gouveia @ArturGouveia10
-- www.linkedin.com/in/artur-gouveia-323868197
+- [GitHub](https://github.com/Arturgouveia1970)
+- [Twitter](https://twitter.com/@arturgouveia10)
+- [LinkedIn](https://www.linkedin.com/in/artur-gouveia-323868197/)
 
 Feel free to check the [issues page](../../issues/).
 
