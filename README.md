@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[View website](https://arturgouveia1970.github.io/leaderboard/)
+[netlify]https://artur-leaderboard.netlify.app/()
 
 ## Install
 
